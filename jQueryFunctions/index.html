@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>jQuery Function</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("#hider").click(function(){
+                $("#header1").hide("slow");
+            })
+
+            $("#shower").click(function(){
+                $("#header1").show("slow");
+            })
+
+            $("#toggle").click(function(){
+                $("#thoggle").toggle("slow");
+            })
+
+            $("#slideup").click(function(){
+                $("#catandninja").slideUp();
+            })
+
+            $("#slidedown").click(function(){
+                $("#catandninja").slideDown("slow");
+            })
+
+            $("#slidetoggle").click(function(){
+                $("#catandninja").slideToggle("slow");
+            })
+
+            $("#fadeout").click(function(){
+                $("#fade").fadeOut("slow");
+            })
+
+            $("#fadein").click(function(){
+                $("#fade").fadeIn("slow");
+            })
+
+            $("#fadeout").addClass("blue"); 
+
+            $("h2").before("I'm before...");
+            $("h2").after("I'm after...");
+            $("h2").html("I'm html...(and I replaced someone) ");
+            $("h2").append("I'm append..., and I HAVE to come after .html in the code... ");
+
+
+        })
+    </script>
+</head>
+<body>
+    <div class="box">
+        <h1 id="header1">.click and .hide and .show</h1>
+        <button id="hider">.click .hide</button>
+        <button id="shower">.click .show</button>
+    </div>
+    <div class="box">
+        <h1 id="thoggle">.toggle</h1>
+        <img id="catandninja" src="images/catandninja.png">
+        <button id="toggle">.toggle</button>
+        <button id="slidedown">.slideDown</button>
+        <button id="slideup">.slideUp</button>
+        <button id="slidetoggle">.slideToggle</button>
+    </div>
+    <div class="box">
+        <h1>.fadeIn .fadeOut .addClass</h1>
+        <img id="fade" src="images/catandninja.png">
+        <button id="fadein">.fadeIn</button>
+        <button id="fadeout">.fadeOut</button>
+    </div>
+    <div class="box">
+        <h2>I'm here...</h2>
+    </div>
+</body>
+</html>

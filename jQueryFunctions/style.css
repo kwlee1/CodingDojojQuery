@@ -1,0 +1,19 @@
+.box{
+    width: 1000px; 
+    height: 150px; 
+    background-color: #D7D7D7; 
+    margin: 5px; 
+    padding: 20px;
+    border: 2px solid black;  
+}
+#catandninja{
+    width: 100px; 
+    height: auto; 
+}
+#fade{
+    width: 100px; 
+    height: auto; 
+}
+.blue{
+    color: blue; 
+}
