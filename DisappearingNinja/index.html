@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Disappearing Ninja</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("img").click(function(){
+                $(this).fadeOut("slow");
+            })
+
+            $("#restore").click(function(){
+                $("img").fadeIn("slow");
+            })
+
+        })
+    </script>
+</head>
+<body>
+    <h1 id="header">jQuery - assignment 1</h1>
+    <div class="row">
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+    </div>
+    <div class="row">
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+        <div class="block"><img class="ninja" src="images/catandninja.png"></div>
+    </div>
+    <button id="restore">Restore</button>
+</body>
+</html>

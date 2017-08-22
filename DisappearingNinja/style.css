@@ -1,0 +1,23 @@
+.row{
+    width: 450px; 
+    height: 100px; 
+    background-color: gray; 
+    margin: 5px; 
+    padding: 5px; 
+    border: 2px solid black; 
+}
+.ninja{
+    width: 100px; 
+    height: auto; 
+    margin: 5px; 
+}
+.block{
+    width: 100px; 
+    display: inline-block; 
+}
+#restore{
+    margin: 5px; 
+}
+#header{
+    margin: 15px 5px; 
+}
