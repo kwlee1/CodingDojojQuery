@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ninja to Cat</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $("#cat0").click(function(){
+                $(this).fadeOut();
+                $("#ninja0").delay(400).fadeIn(); 
+            })
+            $("#cat1").click(function(){
+                $(this).fadeOut();
+                $("#ninja1").delay(400).fadeIn(); 
+            })
+
+            $("#cat2").click(function(){
+                $(this).fadeOut();
+                $("#ninja2").delay(400).fadeIn();
+            }) 
+                
+            $("#cat3").click(function(){
+                $(this).fadeOut();
+                $("#ninja3").delay(400).fadeIn(); 
+            })
+
+            $("#cat4").click(function(){
+                $(this).fadeOut();
+                $("#ninja4").delay(400).fadeIn(); 
+            })
+                
+            $("#ninja0").click(function(){
+                $(this).fadeOut();
+                $("#cat0").delay(400).fadeIn(); 
+            })
+
+            $("#ninja1").click(function(){
+                $(this).fadeOut();
+                $("#cat1").delay(400).fadeIn(); 
+            })
+
+            $("#ninja2").click(function(){
+                $(this).fadeOut();
+                $("#cat2").delay(400).fadeIn(); 
+            })
+
+            $("#ninja3").click(function(){
+                $(this).fadeOut();
+                $("#cat3").delay(400).fadeIn(); 
+            })
+
+            $("#ninja4").click(function(){
+                $(this).fadeOut();
+                $("#cat4").delay(400).fadeIn(); 
+            })
+
+        })
+    </script>
+</head>
+<body>
+    <h1>Ninja to Cat</h1>
+    <div id="box0"><img id="cat0" src="images/cat0.png"><img class="ninjas" id="ninja0" src="images/ninja0.png"/></div>
+    <div id="box1"><img id="cat1" src="images/cat1.png"><img class="ninjas" id="ninja1" src="images/ninja1.png"/></div>
+    <div id="box2"><img id="cat2" src="images/cat2.png"><img class="ninjas" id="ninja2" src="images/ninja2.png"/></div>
+    <div id="box3"><img id="cat3" src="images/cat3.png"><img class="ninjas" id="ninja3" src="images/ninja3.png"/></div>
+    <div id="box4"><img id="cat4" src="images/cat4.png"><img class="ninjas" id="ninja4" src="images/ninja4.png"/></div> 
+</body>
+</html>

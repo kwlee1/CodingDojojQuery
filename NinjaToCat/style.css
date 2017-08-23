@@ -1,0 +1,33 @@
+#box0{
+    width: 181px; 
+    height: 43px; 
+    margin: 2px; 
+}
+
+#box1{
+    width: 181px; 
+    height: 51px; 
+    margin: 2px; 
+}
+
+#box2{
+    width: 181px; 
+    height: 51px; 
+    margin: 2px; 
+}
+
+#box3{
+    width: 181px; 
+    height: 51px; 
+    margin: 2px; 
+}
+
+#box4{
+    width: 181px; 
+    height: 61px; 
+    margin: 2px; 
+}
+
+.ninjas{
+    display: none; 
+}
